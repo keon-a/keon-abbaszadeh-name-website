@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- This code was written by Keon Abbaszadeh -->    
+    <!-- Sample program for Y8 Summative -->
+    <!-- Thank you Mr. Jugoon for helping me with the code and images -->
+    <!-- Some of this code has been inspired by and used from W3Schools -->
+        
+    <style>
+
+        body {
+  background-color: BlanchedAlmond;
+}
+
+h1 {
+ text-align: center;
+}
+
+h2 {
+ text-align: center;
+}
+
+h3 {
+ text-align: center;
+}
+h4 {
+ text-align: center;
+}
+
+h5 {
+ text-align: center;
+}
+
+h6 {
+ text-align: center;
+}
+
+
+body { 
+    text-align: center; 
+}
+    
+    </style>
+
+    </head>
+
+    <body>
+
+        <h1> Choose which name you would like to learn more about </h1>
+
+        <div>
+            <button id="button1" style="border:2px solid AliceBlue;">About the Coder</button>
+            <br>
+            <br>
+            <button id="button2" style="border:2px solid AliceBlue;">CLEAR PAGE</button>&nbsp;
+            <br>
+            <br>
+            <button id="button3" style="border:2px solid AliceBlue;">Abbaszadeh</button>
+            <br>
+            <br>
+            <button id="button4" style="border:2px solid AliceBlue;">Shervin</button>
+            <br>
+            <br>
+            <button id="button5" style="border:2px solid AliceBlue;">Keon</button>
+            <br>
+            <br>
+        </div>
+
+        <hr>
+
+        <h2 id="myHeader">Selection will be displayed here...</h2>
+        <p id="myInfo">Information will be displayed here...</p>
+        <img id="myPic" src="" style="display:none;"/>
+
+    </body>
+
+    <script>
+
+        const header123 = document.getElementById("myHeader");
+        const info123 = document.getElementById("myInfo");
+        const pic123 = document.getElementById("myPic");
+
+        document.getElementById("button1").onclick = function() {
+ 
+            header123.innerHTML = "About the Coder";
+            info123.innerHTML = "Hello! My name is Keon Abbaszadeh and I coded this website. I am 13 years old, and I was born January 2, 2008. I turn 14 in 1 month! I go to Upper Canada College and I am in grade 8. I play soccer, ski racing and fencing. I enjoy going to school and being with my friends. I am looking forward to coding again next year!";
+
+
+ pic123.src = "keonpic2.png";
+            pic123.style.display ='block';
+
+
+        }//end onclick    
+
+            
+        document.getElementById("button2").onclick = function() {
+   
+            header123.innerHTML = "Information has been cleared";
+            info123.innerHTML = "Select which name you would like to learn about";
+            pic123.style.display ='none';
+
+        }//end onclick     
+
+        document.getElementById("button3").onclick = function() {
+ 
+            header123.innerHTML = "Abbaszadeh";
+            info123.innerHTML = "The name Abbaszadeh is a Persian last name. It originates from the common Persian first name, 'Abbas'. The part of my last name that is 'zadeh', means son of in Farsi. So basically my last name means 'Son of Abbas', or 'Abbasson'. Abbas was probably one of my ancestors. The oldest person recorded with the name Abbas, was born in the year 647. Just like the phone number. There was no famous people with the name Abbaszadeh, so the most famous person with the name Abbas, was Abbas I of Persia, also known as Abbas the Great. He was the 5th Safavid Shah of Iran, and is generally considered one of the greatest rulers of Iranian history and the Safavid dynasty. The flag below, was the flag of the empire that controlled the region where Iran currently is. So this flag was when the first recorded person named 'Abbas' lived. This is the flag of the Sassanid, or Sasanin, Empire, which was a Persian one.";
+
+            pic123.src = "flagofIran647";
+pic123.style.height = '300px';
+pic123.style.width = '300px';
+pic123.style.display ='block';
+
+
+
+            pic123.src = "flagofIran647.png";
+            pic123.style.display ='block';
+
+        }//end onclick    
+
+         document.getElementById("button4").onclick = function() {
+ 
+            header123.innerHTML = "Shervin";
+            info123.innerHTML = "The name Shervin is a very common Persian name. The name Shervin in Farsi means 'Lion' or 'Like a Lion'. It also means 'Eternal Soul'. The name 'Sherwin' is also a name, but not a Persian one. It is Anglo-Saxon and it meant 'Bright' or 'Friend'. Shervin is not a very common name at all anywhere but Iran, so the most famous person with the name Shervin, is Shervin Pishevar, who is an Iranian-American venture capitalist and entrepenuer. It is said that he has a net worth of $60 million, but some say it is in the billions range.";
+
+            pic123.src = "shervin2.jpg";
+            pic123.style.display ='block';
+
+        }//end onclick          
+
+        document.getElementById("button5").onclick = function() {
+ 
+            header123.innerHTML = "Keon";
+            info123.innerHTML = "Along with the name Shervin, Keon is also a very common Persian name. The name Keon has many meanings. It is also a very common Irish biblical name and it also has Hebrew origin. So in Irish my name means 'God is Gracious'. Pretty cool right? In Farsi, my name means 'King of all Kings'. Lastly, a cool thing I found is that the name Keone, means 'The homeland' in Hawaiian. The most famous person with my name is Dave Keon. He was one of the players on the Toronto Maple Leafs when we last one the Stanley Cup in 1967. The image below is a photo of Dave Keon when he played for the Leafs.";
+
+            pic123.src = "davekeon3.jpeg";
+            pic123.style.display ='block';
+
+        }//end onclick 
+ 
+    </script>
+
+</html>
